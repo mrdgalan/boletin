@@ -18,7 +18,7 @@ COPY . ./
 COPY --from=frontend /build/static/admin/dist ./static/admin/dist
 RUN CGO_ENABLED=0 go build -o listmonk -ldflags="-s -w" ./cmd
 RUN go install github.com/knadh/stuffbin/... \
- && /root/go/bin/stuffbin -a stuff -in listmonk -out listmonk \
+ && $(go env GOPATH)/bin/stuffbin -a stuff -in listmonk -out listmonk \
       config.toml.sample schema.sql queries:/queries permissions.json \
       static/public:/public static/admin/views:/admin/views \
       static/admin/partials:/admin/partials static/admin/dist:/admin/static \
