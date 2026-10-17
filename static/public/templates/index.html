@@ -13,6 +13,9 @@
 	{{ end }}
 
 	<link href="/public/static/style.css?v={{ .AssetVersion }}" rel="stylesheet" type="text/css" />
+	{{/* MagnaRooms brand font. */}}
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 	<link href="/public/custom.css?v={{ .CustomAssetVersion }}" rel="stylesheet" type="text/css">
 	<script src="/public/custom.js?v={{ .CustomAssetVersion }}" async defer></script>
 
@@ -41,7 +44,7 @@
 	</div>
 	
 	<footer class="container">
-		{{ L.T "public.poweredBy" }} <a target="_blank" rel="noreferrer" href="https://listmonk.app">listmonk</a>
+		{{ L.T "public.poweredBy" }} <a target="_blank" rel="noreferrer" href="https://magnarooms.com">MagnaRooms</a>
 	</footer>
 </body>
 </html>

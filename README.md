@@ -1,3 +1,8 @@
+> **Boletín — by [MagnaRooms](https://magnarooms.com).** This is a cosmetic brand fork of
+> [knadh/listmonk](https://github.com/knadh/listmonk) (AGPL-3.0, license kept intact in
+> [LICENSE](./LICENSE)). Upstream docs at [listmonk.app](https://listmonk.app) still apply.
+> Theme changes live on branch [`brand/magnarooms`](https://github.com/mrdgalan/boletin/tree/brand/magnarooms).
+
 <a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
 
 [![listmonk-logo](https://user-images.githubusercontent.com/547147/231084896-835dba66-2dfe-497c-ba0f-787564c0819e.png)](https://listmonk.app)

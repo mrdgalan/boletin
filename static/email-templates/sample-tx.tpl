@@ -38,7 +38,7 @@
             }
 
             .button {
-                background: #0055d4;
+                background: #0092ae;
                 border-radius: 3px;
                 text-decoration: none !important;
                 color: #fff !important;
@@ -70,7 +70,7 @@
             }
 
             a {
-                color: #0055d4;
+                color: #0092ae;
             }
                 a:hover {
                     color: #111;
